@@ -2,14 +2,18 @@
 
 /* tablet version */
 @media all and (max-width:800px){
-
+    .col-played{
+        flex-basis: calc((100% / 4) - 2%);
+    }
 
 }
 
 
 /* smartphone version */
 @media all and (max-width: 500px){
-
+    .col-played{
+        flex-basis: calc((100% / 2) - 2%);
+    }
 
 }
 
