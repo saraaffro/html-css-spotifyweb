@@ -1,24 +1,40 @@
 /* RESPONSIVE */
 
-/* tablet version */
+/* TABLET VERSION */
 @media all and (max-width:800px){
-    .col-played{
+    /* main-content */
+    .col.played{
         flex-basis: calc((100% / 4) - 2%);
     }
 
+    .col.suggested{
+        flex-basis: calc((100% / 4) - 2%);
+    }
+
+    .col.popular{
+        flex-basis: calc((100% / 4) - 2%);
+    }
 }
 
 
-/* smartphone version */
+/* SMARTPHONE VERSION */
 @media all and (max-width: 500px){
-    .col-played{
+    /* main content */
+    .col.played{
         flex-basis: calc((100% / 2) - 2%);
     }
 
+    .col.suggested{
+        flex-basis: calc((100% / 2) - 2%);
+    }
+
+    .col.popular{
+        flex-basis: calc((100% / 2) - 2%);
+    }
 }
 
 
-/* small smartphone version */
+/* SMALL SMARTPHONE VERSION */
 @media all and (max-width: 400px){
 
 
