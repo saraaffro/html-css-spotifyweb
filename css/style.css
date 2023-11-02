@@ -36,6 +36,7 @@ ul{
 
 .logo img{
     width: 90%;
+    color: white;
 }
 
 #sidebar li{
@@ -57,13 +58,43 @@ ul{
 }
 
 .icons{
-    color: #7d7f84;
     padding: 0 10px;
     font-size: 20px;
+    color: #7d7f84;
 }
 
 .app-section.here{
     border-left: 2px solid #99e22d;
+}
+
+#playlist-container{
+    overflow-y: auto;
+    color: #7d7f84;
+}
+
+h3{
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.fa-plus{
+    background-color: #7d7f84;
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#new-playlist{
+    display: flex;
+    align-items: center;
+}
+
+#playlists{
+    padding-left: 10px;
+    font-weight: bold;
 }
 
 
@@ -81,6 +112,8 @@ ul{
     height: 70px;
     z-index: 500;
     position: fixed;
+    top: 0;
+    left: 0;
     background-color: rgba(0, 0, 0, 0.519);
     display: flex;
     align-items: center;
@@ -93,6 +126,7 @@ ul{
     border-radius: 20px;
     text-align: center;
     transition: 1s all ease-in-out;
+    margin-right: 10px;
 }
 
 .button:hover{
