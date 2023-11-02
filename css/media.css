@@ -36,6 +36,33 @@
 
 /* SMALL SMARTPHONE VERSION */
 @media all and (max-width: 400px){
+    #sidebar{
+        width: 50px;
+        align-items: center;
+    }
 
+    #playlist-container, .logo, #app-section{
+        display: none;
+    }
+
+    .app-section.here{
+        border-left: none;
+    }
+
+    #app-section-xs{
+        display: block;
+    }
+
+    #user-info{
+        display: none;
+    }
+
+    #user-info-xs{
+        display: block;
+    }
+
+    #upgrade{
+        width: 88%;
+    }
 
 }

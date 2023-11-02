@@ -27,6 +27,9 @@ ul{
     height: 100%;
     background-color: black;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo{
@@ -67,6 +70,15 @@ ul{
     border-left: 2px solid #99e22d;
 }
 
+#app-section-xs{
+    display: none;
+}
+
+#logo-small img{
+    width: 100%;
+    padding: 0 10px;
+}
+
 #playlist-container{
     overflow-y: auto;
     color: #7d7f84;
@@ -97,6 +109,33 @@ h3{
     font-weight: bold;
 }
 
+#download{
+    color: #7d7f84;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.fa-circle-down{
+    padding-right: 5px;
+    
+}
+
+#user{
+    margin: 10px;
+}
+
+#user a {
+    color: white;
+}
+
+.fa-circle-user{
+    padding-right: 5px;
+}
+
+#user-info-xs{
+    display: none;
+}
+
 
 /* stili main-content */
 #main-content{
@@ -108,12 +147,12 @@ h3{
 }
 
 #upgrade{
-    width: 100%;
+    width: 81%;
     height: 70px;
     z-index: 500;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: rgba(0, 0, 0, 0.519);
     display: flex;
     align-items: center;
