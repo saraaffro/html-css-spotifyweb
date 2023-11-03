@@ -430,3 +430,12 @@ h2{
     font-size: 8px;
     color: white;
 }
+
+.options{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.bar.volume{
+    margin: 0 5px;
+}
