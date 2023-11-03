@@ -327,6 +327,7 @@ h2{
 
 .col-footer.large{
     flex-basis: 55%;
+    display: block;
 } 
 
 .col-song{
@@ -373,4 +374,59 @@ h2{
 
 .fa-folder{
     padding-left: 5px;
+}
+
+.play{
+    text-align: center;
+    margin-top: 2px;
+}
+
+.play-icons{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.rangebar{
+    display: flex;
+    justify-content: center;
+    margin: 3px 0;
+    align-items: center;
+}
+
+.bar{
+    width: 60%;
+    height: 3px;
+    background-color:#7d7f84;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.bar-active{
+    display: block;
+    width: 20%;
+    height: 3px;
+    background-color: whitesmoke;
+}
+
+.fa-circle{
+    position: absolute;
+    left: 20%;
+    top: -4px;
+    font-size: 12px;
+    color: white;
+    display: none;
+}
+
+.bar:hover .fa-circle{
+    display: block;
+}
+
+.bar:hover .bar-active{
+    background-color: #99e22d;
+}
+
+.minute{
+    font-size: 8px;
+    color: white;
 }
