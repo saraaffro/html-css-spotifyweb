@@ -41,7 +41,7 @@
         align-items: center;
     }
 
-    #playlist-container, .logo, #app-section{
+    #playlists, .logo, #app-section, #playlist-title{
         display: none;
     }
 

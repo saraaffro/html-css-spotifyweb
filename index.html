@@ -25,7 +25,7 @@
             <section id="sidebar">
                 <nav>
                     <div class="logo">
-                        <img src="img/logo.svg" alt="logo spotify">
+                        <a href="#"><img src="img/logo.svg" alt="logo spotify"></a>
                     </div>
                     <ul id="app-section">
                         <li class="app-section here"><a href="#"><i class="fa-solid fa-house icons"></i>Home</a></li>
@@ -41,12 +41,15 @@
                 </nav>
 
                 <!-- playlists -->
-                <div id="playlist-container">
+                <div id="playlist-title">
                     <h3>PLAYLIST</h3>
                     <div id="new-playlist">
-                        <i class="fa-solid fa-plus"></i>
-                        <span><strong>Crea Playlist</strong></span>
+                        <a href="#"><i class="fa-solid fa-plus icons"></i></a>
+                        <a href="#"><strong>Crea Playlist</strong></a>
                     </div>
+                </div>
+                
+                <div id="playlist-container">
                     <ul id="playlists">
                         <li><a href="">Nome Playlist</a></li>
                         <li><a href="">Nome Playlist</a></li>
@@ -195,7 +198,36 @@
     
     <footer>
         <div id="wrapper-controller">
+            <div class="col-footer">
+                    <div class="col-song">
+                        <div class="img-footer">
+                            <img src="img/sinister.jpeg" alt="song sinister"> 
+                        </div>
+                            
+                    </div>
+                    <div class="col-song">
+                        <div class="title">
+                            <a href="#"><strong>Sinister</strong></a>
+                        </div>
+                        <div class="name">
+                            <a href="#"><strong>Brano Nome</strong></a>
+                        </div>
+                    </div>
 
+                    <div class="col-song actions">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-folder"></i></a>
+                    </div>
+            </div>
+
+
+            <div class="col-footer large">
+                
+            </div>
+
+            <div class="col-footer">
+                
+            </div>
         </div>
     </footer>
         

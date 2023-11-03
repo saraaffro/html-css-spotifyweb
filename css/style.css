@@ -18,7 +18,7 @@ ul{
 /* stili container principale*/
 #wrapper-up{
     display: flex;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
 }
 
 /* stili sidebar */
@@ -104,6 +104,10 @@ h3{
     align-items: center;
 }
 
+#new-playlist .icons:hover{
+    background-color: black;
+}
+
 #playlists{
     padding-left: 10px;
     font-weight: bold;
@@ -117,7 +121,6 @@ h3{
 
 .fa-circle-down{
     padding-right: 5px;
-    
 }
 
 #user{
@@ -164,12 +167,12 @@ h3{
     padding: 10px 30px;
     border-radius: 20px;
     text-align: center;
-    transition: 1s all ease-in-out;
-    margin-right: 10px;
+    transition: 0.2s all ease-in-out;
+    margin-right: 15px;
 }
 
 .button:hover{
-    width: 30%;
+    transform: scale(1.1);
 }
 
 #type-of-section{
@@ -234,15 +237,12 @@ h2{
     position: relative;
 }
 
-/* da sistemare il padding */
 .play-hover{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.477);
-    padding: 38%;
     display: none;
     transition: all 1s ease-in-out;
 }
@@ -251,8 +251,16 @@ h2{
     display: block;
 }
 
+.img-container:hover img{
+    opacity: 0.4;
+}
+
 .img-round:hover .play-hover{
     display: block;
+}
+
+.img-round:hover img{
+    opacity: 0.4;
 }
 
 /* recently played */
@@ -304,8 +312,65 @@ h2{
 
 /* stili footer */
 #wrapper-controller{
-    height: 80px;
+    height: 70px;
     width: 100%;
-    /* debug */
-    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+}
+
+.col-footer{
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.col-footer.large{
+    flex-basis: 55%;
+} 
+
+.col-song{
+    flex-basis: calc(100% / 3);
+    margin-left: 10px;
+    color: white;
+}
+
+.img-footer{
+    width: 100%;
+}
+
+.col-song img{
+    width: 100%;
+}
+
+.title{
+    font-size: 12px ;
+}
+
+.name{
+    font-size: 7px;
+}
+
+.name a {
+    color: #7d7f84;
+}
+
+.name a:hover{
+    color: white;
+}
+
+.col-song.actions{
+    margin-left: 30px;
+}
+
+.col-song.actions a{
+    color: #7d7f84;
+}
+
+.col-song.actions a:hover{
+    color: white;
+}
+
+.fa-folder{
+    padding-left: 5px;
 }
