@@ -65,4 +65,7 @@
         width: 88%;
     }
 
+    .col-footer{
+        width: calc(100% / 3);
+    }
 }

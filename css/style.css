@@ -320,13 +320,13 @@ h2{
 }
 
 .col-footer{
-    flex-basis: 20%;
+    flex-basis: 20vw;
     display: flex;
     align-items: center;
 }
 
 .col-footer.large{
-    flex-basis: 55%;
+    flex-basis: 55vw;
     display: block;
 } 
 
@@ -341,7 +341,7 @@ h2{
 }
 
 .col-song img{
-    width: 100%;
+    width: 4vw;
 }
 
 .title{
@@ -394,7 +394,7 @@ h2{
 }
 
 .bar{
-    width: 60%;
+    width: 30vw;
     height: 3px;
     background-color:#7d7f84;
     margin: 0 20px;
@@ -438,4 +438,5 @@ h2{
 
 .bar.volume{
     margin: 0 5px;
+    width: 8vw;
 }
