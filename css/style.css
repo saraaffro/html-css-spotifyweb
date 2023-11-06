@@ -19,6 +19,7 @@ ul{
 #wrapper-up{
     display: flex;
     height: calc(100vh - 70px);
+    overflow: hidden;
 }
 
 /* stili sidebar */
@@ -317,6 +318,8 @@ h2{
     display: flex;
     justify-content: space-between;
     background-color: #282828;
+    gap: 2%;
+    align-items: center;
 }
 
 .col-footer{
@@ -337,11 +340,11 @@ h2{
 }
 
 .img-footer{
-    width: 100%;
+    width: 50px;
 }
 
 .col-song img{
-    width: 4vw;
+    width: 100%;
 }
 
 .title{
@@ -361,7 +364,7 @@ h2{
 }
 
 .col-song.actions{
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 .col-song.actions a{
@@ -383,7 +386,7 @@ h2{
 
 .play-icons{
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .rangebar{
@@ -432,7 +435,7 @@ h2{
 }
 
 .options{
-    font-size: 12px;
+    font-size: 0.8rem;
     padding: 10px;
 }
 

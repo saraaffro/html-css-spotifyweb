@@ -31,6 +31,24 @@
     .col.popular{
         flex-basis: calc((100% / 2) - 2%);
     }
+
+    .img-footer{
+        width: 40px;
+    }
+
+    .col-song.actions{
+        font-size: 0.8rem;
+    }
+
+    .play-icons{
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .options{
+        font-size: 0.6rem;
+        padding: 5px;
+    }
 }
 
 
@@ -65,7 +83,20 @@
         width: 88%;
     }
 
+    .img-footer{
+        width: 35px;
+    }
+
     .col-footer{
         width: calc(100% / 3);
+    }
+
+    .col-song.actions{
+        font-size: 0.8rem;
+    }
+
+    .play-icons{
+        padding: 5px;
+        font-size: 0.8rem;
     }
 }
